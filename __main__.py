@@ -5,7 +5,7 @@ import asyncio
 import importlib
 import signal
 from pyrogram import idle
-from Extractor.modules import ALL_MODULES
+from modules import ALL_MODULES
 
 loop = asyncio.get_event_loop()
 
